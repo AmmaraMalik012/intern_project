@@ -1,0 +1,1335 @@
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto';
+    overflow: scroll;
+}
+
+#To_Hide_Bar1 {
+    display: none;
+}
+
+
+/* Notification Bar Start */
+
+#NT_Bar {
+    background-color: grey;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    font-size: 11px;
+}
+
+#NT_Text {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#NT_Icon {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+/* Responsive NavBar Fourth Try Lol Start */
+
+#Responsive_Nav_Wrapper {
+    grid-column: 1/-1;
+    background-color: navy;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#Responsive_Nav_Links {
+    grid-column: 1/2;
+    grid-row: 1;
+    background-color: magenta;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#Responsive_Nav_Icon {
+    background-color: mediumaquamarine;
+    display: none;
+}
+
+#SearchBar {
+    background-color: mediumturquoise;
+    /*     grid-row: 1; */
+    grid-column: 2/-1;
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper {
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: yellow;
+    display: grid;
+    justify-items: center;
+}
+
+#Logo_Bar {
+    background-color: red;
+    /*     width: 100%;
+    display: grid;
+    grid-template-columns: 65% 35%; */
+}
+
+#Logo_Name {
+    background-color: orange;
+    padding: 14px;
+    font-size: 26px;
+    box-sizing: border-box;
+}
+
+#Two_buttons {
+    background-color: peachpuff;
+    /*     display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    /*     justify-content: center; */
+    align-items: center;
+}
+
+#Membership_Btn {
+    background-color: grey;
+    justify-self: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 6px 0;
+}
+
+#Account_Btn {
+    justify-self: center;
+    background-color: pink;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 6px 0;
+}
+
+#Nav_Bar {
+    background-color: blueviolet;
+    width: 80%;
+    /*     display: grid;
+    grid-template-columns: 71% 27%; */
+}
+
+#myTopnav {
+    grid-column: 1/2;
+}
+
+.SearchBar {
+    grid-column: 2/-1;
+}
+
+#myTopnav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* #To_Hide_Bar2{
+    display: inline;
+    grid-row: 2/-1;
+} */
+
+#List_Items {
+    background-color: palevioletred;
+    align-self: center;
+    display: grid;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+#Inner_Wrapper_NavBar {
+    width: 80%;
+    display: grid;
+    background-color: green;
+    grid-template-columns: 70% 15% 15%;
+}
+
+#Logo {
+    background-color: purple;
+}
+
+#HomePage {
+    grid-row: 3/4;
+}
+
+#Logo {
+    grid-column: 2/4;
+}
+
+
+/* Nav Bar Done */
+
+
+/* Home Page Bar start */
+
+#HomePage_Wrapper {
+    background-color: grey;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 67% 33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#HomePage {
+    background-color: darkcyan;
+}
+
+
+/* Home Page Bar Done */
+
+
+/* Image Slider Section Start */
+
+#Slider_Section_Background {
+    background-image: url(./Slicing/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: darksalmon;
+    display: flex;
+}
+
+#Slider_Section {
+    background-color: rgba(0, 128, 0, 0.5);
+    display: grid;
+    grid-template-columns: 10% repeat(2, 1fr) 10%;
+    grid-template-rows: 350px 70px;
+}
+
+.Thumbnail_Sliding_Icons {
+    grid-column: 1/-1;
+    background-color: red;
+}
+
+#Slider_Text {
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 53px;
+}
+
+#Slider_Text p {
+    font-size: 13px;
+    /*     font-size: 1.25vw; */
+}
+
+
+/* #Slider_Text h1{
+    font-size: 2.5vw;
+} */
+
+#Slider_Container {
+    background-color: skyblue;
+    padding: 30px 40px 10px 10px;
+}
+
+#Slider_Images {
+    height: 100%;
+    width: 70%;
+    background-color: chartreuse;
+    background-image: url(./Slicing/video-thumbnail-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Slider_Play_Button {
+    background-color: green;
+    padding-left: 5px;
+    width: 25%;
+    height: 25%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+}
+
+.Slider_Arrow {
+    display: flex;
+    align-items: center;
+}
+
+#Slider_Right_Arrow {
+    padding-left: 55px;
+}
+
+#Slider_Left_Arrow {
+    padding-left: 35px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 5px;
+    width: 15px;
+    background-color: #bbb;
+    display: inline-block;
+    margin: 4px;
+    transition: background-color 0.6s ease;
+    /*   position: relative; */
+}
+
+.Thumbnail_Sliding_Icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Image Slider Section Done */
+
+
+/* Thumbnail Slider Section Start */
+
+#Card_Wrapper {
+    background-color: violet;
+    width: 100%;
+    display: grid;
+    padding-bottom: 50px;
+}
+
+#Card_Section_One {
+    background-color: blue;
+    display: grid;
+    grid-template-rows: 150px 50px 1fr;
+    padding-right: 15px;
+}
+
+#Inner_Card_Wrapper {
+    background-color: darkslategray;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 76% 24%;
+    justify-self: center;
+    padding-top: 50px;
+}
+
+#Thumbnail_card {
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 3% repeat(4, 1fr) 3%;
+    /*     grid-template-rows: 150px; */
+    grid-gap: 20px;
+}
+
+#Thumbnail_Sliding_Icons {
+    /*     background: rgba(255,255,255,0.5); */
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Thumbnail_Slider_Arrow {
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Thumbnail_Slider_Image img {
+    box-sizing: border-box;
+    background-color: mediumturquoise;
+    width: 100%;
+    height: 100%;
+    border: 5px solid green;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+
+/* Thumbnail Slider Section Done */
+
+
+/* Read More/Post card Section Start */
+
+#ReadMore_Card {
+    box-sizing: border-box;
+    background-color: darkcyan;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 24px;
+    padding: 30px 0;
+    font-size: 12px;
+}
+
+.Post_Card {
+    background-color: olive;
+    display: grid;
+    grid-template-rows: auto 130px auto;
+}
+
+.PostCard_Image {
+    background-color: greenyellow;
+}
+
+.PostCard_Image img {
+    background-color: darkgrey;
+    width: 100%;
+    height: 100%;
+}
+
+.Post_Card_Text {
+    box-sizing: border-box;
+    padding: 5px 7px 20px;
+}
+
+.Post_Card_Text h2,
+.Card_Image_Text h2 {
+    font-size: 14px;
+}
+
+.Post_Read_More {
+    background-color: lightcoral;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Read More/Post card Section Done */
+
+
+/* ZigZag Image And Text Section Start */
+
+#Card_Image_One {
+    background-color: red;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+
+#Card_Image_One_Left {
+    background-image: url(./Slicing/zig-zag-img-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    background-color: purple;
+}
+
+
+/* #Card_Image_One_Left img,
+#Card_Image_Two_Right img {
+    width: 100%;
+} */
+
+.Card_Image_Text {
+    background-color: blueviolet;
+    box-sizing: border-box;
+    padding: 40px 25px;
+    font-size: 12px;
+}
+
+#Card_Image_Two {
+    background-color: peru;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+}
+
+#Card_Image_Two_Right {
+    background-image: url(./Slicing/zig-zag-img-2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    background-color: orangered;
+}
+
+
+/* ZigZag Image And Text Section Done */
+
+
+/* Second Card Section Start */
+
+#Card_Section_Two {
+    background-color: salmon;
+}
+
+#Event_Card {
+    background-color: honeydew;
+    display: grid;
+    grid-template-rows: 30px repeat(4, 50px);
+    /*     justify-content: center; */
+    /*     align-items: center; */
+}
+
+#Event {
+    background-color: greenyellow;
+    display: flex;
+    /*     justify-content: center; */
+    padding-left: 10px;
+    align-items: center;
+}
+
+.Event_Option {
+    display: grid;
+    grid-template-columns: 43px 1fr;
+    grid-template-rows: 43px;
+    padding-left: 5px;
+}
+
+.Event_Option a {
+    padding-left: 5px;
+}
+
+.Event_Option_Numbers {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    margin: 5px;
+}
+
+.Event_Option p {
+    margin: 5px;
+    font-size: 13px;
+    /*     font-size: 1.6vw; */
+}
+
+.Event_Option a:link {
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+#Event_Link_Wrapper {
+    background-color: orangered;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#Event_Option_One {
+    background-color: gold;
+}
+
+#Event_Option_Two {
+    background-color: goldenrod;
+}
+
+#Event_Option_Three {
+    background-color: gray;
+}
+
+#Event_Options_Four {
+    background-color: green;
+}
+
+
+/* Second Card Section Done */
+
+
+/* Form Section Start */
+
+#Form {
+    background-color: royalblue;
+    width: 100%;
+    display: grid;
+}
+
+#Form_Wrapper {
+    overflow: hidden;
+    background-color: green;
+    box-sizing: border-box;
+    width: 41.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    justify-self: center;
+}
+
+select {
+    color: grey;
+}
+
+#Name input,
+#Email input,
+select {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    padding: 5px;
+    width: 100%;
+}
+
+input,
+select {
+    box-sizing: border-box;
+    margin: 5px 0 10px 0;
+}
+
+#Radio_Form {
+    padding: 10px 0;
+}
+
+.container {
+    position: relative;
+    padding: 0 15px 0 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/* Hide the browser's default radio button */
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.container:hover input~.checkmark {
+    background-color: white;
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+.container input:checked~.checkmark {
+    background-color: white;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the indicator (dot/circle) */
+
+.container .checkmark:after {
+    top: 3.5px;
+    left: 3.5px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: green;
+}
+
+textarea {
+    background-color: pink;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    overflow: auto;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+}
+
+#Form_Heading {
+    background-color: mediumaquamarine;
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    padding: 15px;
+}
+
+#Name {
+    background-color: magenta;
+    grid-column: 1/2;
+}
+
+#Email {
+    background-color: mediumblue;
+    grid-column: 2/-1;
+}
+
+#Country {
+    background-color: khaki;
+    grid-column: 1/2;
+}
+
+#State {
+    background-color: paleturquoise;
+    grid-column: 2/-1;
+}
+
+#Gender {
+    background-color: lawngreen;
+    grid-column: 1/-1;
+}
+
+#Submit_Btn {
+    background-color: tomato;
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+}
+
+#Submit_Btn button {
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 5px;
+    width: 30%;
+    margin: 20px 0 30px 0;
+}
+
+#Country_Message {
+    background-color: teal;
+    grid-column: 1/-1;
+}
+
+
+/* Form Section Done */
+
+
+/* Footer Section Start */
+
+#Footer_Wrapper {
+    background-color: teal;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#Footer_Section_Two,
+#Footer_Section_Three {
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.For_Padding {
+    font-size: 12px;
+    padding: 0 3px;
+}
+
+#Footer_Section_One {
+    /*     width: 100%;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: repeat(5,1fr); */
+    font-size: 14px;
+    padding: 10px 0 15px 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    /*     justify-items: center; */
+    /*     grid-template-columns: auto 5px auto 5px auto 5px auto 5px auto; */
+    grid-gap: 3px;
+    width: 100%;
+    background-color: pink;
+}
+
+#Footer_Line_One {
+    display: grid;
+    grid-template-columns: auto 5px auto 5px auto;
+    grid-gap: 5px;
+}
+
+#Footer_Line_Two {
+    display: grid;
+    grid-template-columns: 5px auto 5px auto;
+    grid-gap: 5px;
+}
+
+.Footer_Content {
+    display: flex;
+    justify-content: center;
+}
+
+#Footer_Section_Two {
+    background-color: gold;
+}
+
+#Footer_Section_Three {
+    background-color: mediumseagreen;
+}
+
+#line {
+    border: 1px solid white;
+    height: 10px;
+    transform: rotate(15deg);
+    margin: 4px 10px;
+}
+
+
+/* Footer Section Done */
+
+
+/* Slick Slider for Thumbnail Images Start */
+
+
+/* Slick Slider for Thumbnail Images Done */
+
+@media(max-width:1200px) {
+    .To_Hide {
+        display: none;
+    }
+    #NT_Text {
+        background-color: violet;
+    }
+    #NT_Bar {
+        grid-template-columns: 90% 10%;
+    }
+}
+
+@media(max-width:768px)
+/*and (max-width:1199px)*/
+
+
+/* Notification Bar Start */
+
+{
+    /*     body{
+        font-size: 2vw;
+    } */
+    /*     Responsive NavBar Fourth Try Start */
+    #Inner_Wrapper_NavBar {
+        width: 100%;
+    }
+    #Responsive_Nav_Links {
+        width: 90%;
+        /*         font-size: 14px; */
+    }
+    /*     Responsive NavBar Fourth Try Done */
+    #myTopnav a {
+        padding: 10px;
+        font-size: 12px;
+    }
+    #NT_Icon {
+        padding: 15px;
+    }
+    #NT_Text {
+        background-color: blueviolet;
+        padding: 15px;
+    }
+    #NT_Bar {
+        grid-template-columns: 90% 10%;
+        font-size: 12px;
+    }
+    a {
+        padding: 10px;
+    }
+    /* Notification Bar Done */
+    /* Inner Section Start */
+    #Logo_Bar,
+    #Nav_Bar,
+    #HomePage_Wrapper,
+    #Inner_Card_Wrapper {
+        width: 100%;
+    }
+    #Form_Wrapper {
+        width: 65%;
+    }
+    #Footer {
+        width: 55%;
+    }
+    #Footer_Wrapper {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .Slider_Arrow {
+        display: none;
+    }
+    #Slider_Container {
+        padding: 20px 0 0 40px;
+    }
+    #List_Items {
+        padding-left: 9px;
+    }
+    #line {
+        margin-top: 2.5px;
+        height: 7.5px;
+    }
+    #Inner_Card_Wrapper {
+        grid-template-columns: 70% 30%;
+    }
+    #Thumbnail_card {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 15px;
+    }
+    .To_Hide_Tab_View,
+    .Thumbnail_Slider_Arrow {
+        display: none;
+    }
+    #Slider_Section {
+        grid-template-rows: 300px 70px;
+    }
+    #Slider_Images {
+        margin: 20px;
+        width: 60%;
+        height: 80%;
+    }
+    #Slider_Text {
+        font-size: 12px;
+        padding: 16px;
+    }
+    #Slider_Section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #ReadMore_Card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #Card_Wrapper {
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
+    #Card_Section_One {
+        padding-right: 20px;
+    }
+    .For_Padding {
+        padding: 0 7px;
+    }
+    #Footer_Section_One {
+        font-size: 14px;
+        grid-gap: 6px;
+    }
+}
+
+
+/* Inner Section Done */
+
+@media(max-width:369px) {
+    #NT_Text {
+        background-color: green;
+    }
+    #NT_Bar {
+        grid-template-columns: 85% 15%;
+        font-size: 12px;
+    }
+    /*     #HomePage_Wrapper {
+        display: none;
+    } */
+    #HomePage,
+    #Logo {
+        display: none;
+    }
+    #Inner_Wrapper_NavBar {
+        width: 100%;
+        grid-template-columns: 50% 50%;
+    }
+    #Membership_Btn {
+        grid-column: 1/2;
+    }
+    /*     #myTopnav {
+        grid-column: 1/-1;
+        grid-row: 4;
+        margin: 10px;
+    } */
+    /*     .topnav {
+        grid-row: 3/4;
+        grid-column: 1/-1;
+    } */
+    #Slider_Section {
+        grid-template-columns: 1fr;
+        grid-template-rows: 370px 200px 60px;
+    }
+    #Slider_Container {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    #Slider_Images {
+        width: 80%;
+        height: 80%;
+    }
+    #Slider_Text {
+        grid-row: 2/2;
+    }
+    .dot {
+        align-self: start;
+        margin-top: 25px;
+    }
+    #Thumbnail_card {
+        grid-template-columns: 1fr;
+    }
+    .To_Hide_Mob_View {
+        display: none;
+    }
+    #Inner_Card_Wrapper {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    #Card_Section_One {
+        padding-right: 0;
+        grid-template-rows: 1fr 30px;
+        grid-gap: 0;
+    }
+    .Thumbnail_Slider_Image img {
+        border: 10px solid green;
+    }
+    #Card_Wrapper {
+        padding: 0;
+    }
+    .To_Hide {
+        display: inline;
+    }
+    #ReadMore_Card {
+        grid-template-columns: 1fr;
+        padding: 0 15px;
+        grid-gap: 15px;
+    }
+    .Post_Card_Text {
+        padding: 10px;
+    }
+    hr {
+        margin: 15px;
+    }
+    .Thumbnail_Sliding_Icons {
+        align-self: start;
+    }
+    #Card_Image_One {
+        margin: 0 15px;
+        margin-top: 25px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 1fr;
+    }
+    #Card_Image_Two {
+        margin: 0 15px;
+        margin-top: 25px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 1fr;
+    }
+    #Card_Image_Two_Right {
+        grid-row: 1/-1;
+    }
+    .Card_Image_Text {
+        padding: 10px;
+    }
+    .Post_Card {
+        grid-template-rows: repeat(3, auto);
+    }
+    #Event_Card {
+        padding: 20px 15px;
+        margin: 30px 0;
+    }
+    #Form_Wrapper {
+        width: 100%;
+        padding: 15px 15px 0 15px;
+    }
+    #Name,
+    #Email,
+    #Country,
+    #State {
+        grid-column: 1/-1;
+    }
+    #Footer_Wrapper {
+        padding-top: 30px;
+    }
+    #Footer_Section_One {
+        font-size: 14px;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: auto;
+        /*         height: 50px;
+        width: 100%; */
+        /*         align-items: center; */
+        /*                 display: grid; */
+        /*         grid-row-gap: 5px; */
+        /*         grid-template-columns: 80px 5px 80px 5px 80px; */
+        /*         grid-template-rows: repeat(2,1fr); */
+        /*         grid-template-columns: 70px 6px 70px 6px 70px 6px 70px 6px 70px; */
+        /*         grid-template-rows: repeat(2,1fr); */
+    }
+    For_Padding {
+        padding: 3px;
+    }
+    #Footer {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #Footer_Line_Two {
+        grid-template-columns: auto 5px auto;
+    }
+    #F6 {
+        display: none;
+    }
+    /*     Responsive NavBar Fourth Try Start */
+    #Responsive_Nav_Links {
+        padding: 15px 0;
+        /*     display: none; */
+        width: 100%;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        grid-column: 1/-1;
+    }
+    #SearchBar {
+        display: flex;
+        justify-content: start;
+        grid-row: 1;
+        grid-column: 1/-1;
+    }
+    #Responsive_Nav_Icon {
+        display: block;
+        grid-row: 1;
+        grid-column: 2;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-self: end;
+    }
+    #Logo_Name {
+        width: 175%
+    }
+    #Responsive_Nav_Wrapper {
+        display: none;
+    }
+    /*     Responsive NavBar Fourth Try Done */
+}
+
+ .slick-loading .slick-list {
+        background: #fff url('./ajax-loader.gif') center center no-repeat;
+    }
+    /* Icons */
+    
+    @font-face {
+        font-family: 'slick';
+        font-weight: normal;
+        font-style: normal;
+        src: url('./fonts/slick.eot');
+        src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+    }
+    /* Arrows */
+    
+    .slick-prev,
+    .slick-next {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+    /* .slick-next{
+        left: 100%;
+    } */
+    
+    .slick-prev:hover,
+    .slick-prev:focus,
+    .slick-next:hover,
+    .slick-next:focus {
+        color: transparent;
+        outline: none;
+        background: transparent;
+    }
+    
+    .slick-prev:hover:before,
+    .slick-prev:focus:before,
+    .slick-next:hover:before,
+    .slick-next:focus:before {
+        opacity: 1;
+    }
+    /* .slick-prev.slick-disabled:before,
+    .slick-next.slick-disabled:before {
+        opacity: .25;
+    } */
+    /* .slick-prev:before,
+    .slick-next:before {
+        font-family: 'slick';
+        font-size: 20px;
+        line-height: 1;
+        opacity: .75;
+        color: white;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    } */
+    
+    .slick-prev {
+        left: -35px;
+    }
+    
+    [dir='rtl'] .slick-prev {
+        right: -25px;
+        left: auto;
+    }
+    
+    .slick-next {
+        right: -35px;
+    }
+    
+    [dir='rtl'] .slick-next {
+        right: auto;
+        left: -25px;
+    }
+    
+    .slick-dotted.slick-slider {
+        margin-bottom: 30px;
+    }
+    
+    .your-class .slick-next {
+        background: url('./Slicing/hero-slider-right-arrow.png') center center no-repeat;
+    }
+    
+    .your-class .slick-prev {
+        background: url('./Slicing/hero-slider-leftt-arrow.png') center center no-repeat;
+    }
+    
+    .slick-dots {
+        position: absolute;
+        bottom: -35px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+        background: transparent;
+    }
+    
+    .slick-dots li button {
+        /* font-size: 0;
+        line-height: 0; */
+        display: block;
+        width: 20px;
+        height: 5px;
+        /* padding: 5px; */
+        margin: 0 5px;
+        cursor: pointer;
+        color: transparent;
+        border: 0;
+        outline: none;
+        /* background: transparent; */
+        /* background: url('https://api.iconify.design/octicon:dash-24.svg') no-repeat center center / contain; */
+    }
+    
+    .slick-dots li button:hover,
+    .slick-dots li button:focus {
+        /* outline: none; */
+    }
+    /* .slick-dots li button:hover:before,
+    .slick-dots li button:focus:before {
+        color: grey;
+    } */
+    
+    .slick-dots li button:before {
+        /* font-family: 'slick'; */
+        /* font-size: 12px; */
+        /* line-height: 20px; */
+        /* position: absolute;
+        top: 0;
+        left: 0; */
+        /* width: 60px; */
+        /* height: 20px; */
+        /* content: '•'; */
+        /
+        /* opacity: .25; */
+        /* color: white;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; */
+    }
+    
+    .slick-dots li.slick-active button:before {
+        /* opacity: .75; */
+        /* color: white; */
+    }
+    
+    .your-class {
+        /* display: grid; */
+        background-color: grey;
+        /* justify-content: center; */
+        width: 80%;
+        height: 80%;
+    }
+    
+    .your-class img {
+        /* border: 10px solid green; */
+        width: 100%;
+        height: 100%;
+    }
+    
+    #Thumbnail_Images_wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: blueviolet;
+    }
+    
+    .Thumbnail_Images {
+        border: 10px solid green;
+        margin: 0 5px;
+        width: 90%;
+        height: 90%;
+    }
